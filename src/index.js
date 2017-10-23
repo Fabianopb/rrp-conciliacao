@@ -2,6 +2,7 @@ import angular from 'angular';
 
 import {HomeContainer} from './app/containers/Home';
 import {NavBarComponent} from './app/components/NavBar';
+import {RrpFooterComponent} from './app/components/RrpFooter';
 
 import 'angular-ui-router';
 import 'angular-material';
@@ -18,4 +19,5 @@ angular
   .module(app, ['ui.router', 'ngMaterial', 'ngMessages'])
   .config(routesConfig)
   .component('home', HomeContainer)
-  .component('navBar', NavBarComponent);
+  .component('navBar', NavBarComponent)
+  .component('rrpFooter', RrpFooterComponent);
