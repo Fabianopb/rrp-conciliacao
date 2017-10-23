@@ -1,8 +1,12 @@
 import angular from 'angular';
 
 import {HomeContainer} from './app/containers/Home';
+
 import 'angular-ui-router';
+
 import routesConfig from './routes';
+
+import './app/styles/index.scss';
 
 export const app = 'app';
 
