@@ -3,17 +3,17 @@
     RRP Conciliação
   </div>
   <div layout="row" layout-align="space-around center" flex>
-    <a href="/">
+    <div ng-click="$ctrl.goto('home')">
       Início
-    </a>
-    <a href="/sobre">
+    </div>
+    <div ng-click="$ctrl.goto('about')">
       Quem somos
-    </a>
-    <a href="/regulamento">
+    </div>
+    <div ng-click="$ctrl.goto('terms')">
       Regulamento
-    </a>
-    <a href="/contato">
+    </div>
+    <div ng-click="$ctrl.goto('contact')">
       Contato
-    </a>
+    </div>
   </div>
 </div>
