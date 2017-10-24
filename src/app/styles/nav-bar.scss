@@ -1,3 +1,13 @@
 nav-bar {
-  background-color: wheat;
+  background-color: darkgrey;
+  height: 70px;
+
+  .logo-container {
+    margin: 0 12px;
+  }
+
+  .nav-link {
+    cursor: pointer;
+    outline: 0;
+  }
 }
