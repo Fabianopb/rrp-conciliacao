@@ -9,5 +9,17 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     .state('home', {
       url: '/',
       component: 'home'
+    })
+    .state('about', {
+      url: '/sobre',
+      component: 'about'
+    })
+    .state('terms', {
+      url: '/regulamento',
+      component: 'terms'
+    })
+    .state('contact', {
+      url: '/contato',
+      component: 'contact'
     });
 }
