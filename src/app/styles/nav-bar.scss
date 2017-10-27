@@ -1,9 +1,13 @@
-nav-bar {
-  background-color: darkgrey;
-  height: 70px;
+.nav-bar {
 
-  .logo-container {
-    margin: 0 12px;
+  .contact-header {
+    background-color: lightgrey;
+    height: 30px;
+  }
+
+  .menu-header {
+    background-color: darkgrey;
+    height: 70px;
   }
 
   .nav-link {
