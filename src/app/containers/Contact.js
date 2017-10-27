@@ -1,9 +1,12 @@
 import '../styles/contact.scss';
+import {contactPhone, contactEmail} from '../services/globalConstants';
 
 class ContactController {
   /** @ngInject */
   constructor($log) {
     this.log = $log;
+    this.contactPhone = contactPhone;
+    this.contactEmail = contactEmail;
     this.init();
   }
 
@@ -17,10 +20,7 @@ class ContactController {
   }
 
   init() {
-    this.contactFormData = {
-      name: '', email: '', phone: '', message: ''
-    };
-    this.log.log('Contact initialized');
+    this.contactFormData = {name: '', email: '', phone: '', message: ''};
   }
 }
 

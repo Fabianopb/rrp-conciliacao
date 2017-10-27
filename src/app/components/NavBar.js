@@ -1,10 +1,13 @@
 import '../styles/nav-bar.scss';
+import {contactPhone, contactEmail} from '../services/globalConstants';
 
 class NavBarController {
   /** @ngInject */
   constructor($log, $state) {
     this.log = $log;
     this.state = $state;
+    this.contactPhone = contactPhone;
+    this.contactEmail = contactEmail;
     this.init();
   }
 

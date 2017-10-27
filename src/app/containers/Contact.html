@@ -4,8 +4,8 @@
       <h1>Contato</h1>
       <p>
         Duvidas? Entre em contato.<br />
-        email: <a href="mailto:rrpconciliacao@gmail.com">rrpconciliacao@gmail.com</a><br />
-        telefone / WhatsApp: (11) 97331-5997
+        email: <a ng-href="mailto:{{ $ctrl.contactEmail }}">{{ $ctrl.contactEmail }}</a><br />
+        telefone / WhatsApp: {{ $ctrl.contactPhone }}
       </p>
       <p>
         Caso prefira, entre em contato através do formulário abaixo:
