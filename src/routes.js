@@ -14,9 +14,9 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       url: '/sobre',
       component: 'about'
     })
-    .state('terms', {
-      url: '/regulamento',
-      component: 'terms'
+    .state('operation', {
+      url: '/como-funciona',
+      component: 'operation'
     })
     .state('contact', {
       url: '/contato',

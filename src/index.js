@@ -2,7 +2,7 @@ import angular from 'angular';
 
 import {HomeContainer} from './app/containers/Home';
 import {AboutContainer} from './app/containers/About';
-import {TermsContainer} from './app/containers/Terms';
+import {OperationContainer} from './app/containers/Operation';
 import {ContactContainer} from './app/containers/Contact';
 import {NavBarComponent} from './app/components/NavBar';
 import {RrpFooterComponent} from './app/components/RrpFooter';
@@ -23,7 +23,7 @@ angular
   .config(routesConfig)
   .component('home', HomeContainer)
   .component('about', AboutContainer)
-  .component('terms', TermsContainer)
+  .component('operation', OperationContainer)
   .component('contact', ContactContainer)
   .component('navBar', NavBarComponent)
   .component('rrpFooter', RrpFooterComponent);
