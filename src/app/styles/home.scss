@@ -16,10 +16,29 @@
     }
   }
 
+  .four-steps-container {
+    padding-top: 20px;
+
+    .step-container {
+      padding: 16px;
+
+      .four-steps-icon {
+        color: #F7941D;
+        height: 100px;
+        width: 100px;
+        font-size: 100px;
+      }
+
+      .four-steps-text {
+        padding-top: 8px;
+        text-align: center;
+      }
+    }
+  }
+
   .info-paragraph {
     width: 80%;
   }
 }
 
-/* #F7941D */
 /* #358DEA */
