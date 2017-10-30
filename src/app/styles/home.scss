@@ -1,8 +1,25 @@
-.background-image {
-  min-height: 500px;
-  width: 100%;
+.home {
+
+  .background-image {
+    background-color: #001489;
+    min-height: 500px;
+    width: 100%;
+
+    .hero-text {
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 2.5rem;
+    }
+
+    .hero-action-container {
+      color: #FFFFFF;
+    }
+  }
+
+  .info-paragraph {
+    width: 80%;
+  }
 }
 
-.info-paragraph {
-  width: 80%;
-}
+/* #F7941D */
+/* #358DEA */
