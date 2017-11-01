@@ -8,8 +8,14 @@
 
   .menu-header {
     padding: 0 12px;
-    background-color: #F2F3FF;
-    height: 70px;
+    background-color: #204770;
+    color: #FFFFFF;
+    // background-color: #F2F3FF;
+    // height: 70px;
+
+    .img-logo {
+      height: 180px;
+    }
   }
 
   .nav-link {
