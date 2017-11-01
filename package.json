@@ -1,4 +1,10 @@
 {
+  "name": "RRP Conciliação",
+  "description": "Conciliação online",
+  "version": "0.1.0",
+  "engines": {
+    "node": "6.11.5"
+  },
   "dependencies": {
     "angular": "^1.6.2",
     "angular-animate": "^1.6.6",
