@@ -1,63 +1,67 @@
-<div class="ui-view contact">
-  <div layout="column" layout-gt-sm="row">
-    <div flex-gt-sm>
-      <h1>Contato</h1>
-      <p>
-        Duvidas? Entre em contato.<br />
-        email: <a ng-href="mailto:{{ $ctrl.contactEmail }}">{{ $ctrl.contactEmail }}</a><br />
-        telefone / WhatsApp: {{ $ctrl.contactPhone }}
-      </p>
-      <p>
-        Caso prefira, entre em contato através do formulário abaixo:
-      </p>
-    </div>
-    <div flex-gt-sm>
-      <md-content class="contact-form">
-        <form name="$ctrl.contactForm" ng-submit="$ctrl.submitContactForm()" novalidate>
-          <div layout="row">
-            <md-input-container flex>
-              <label>Nome completo</label>
-              <input required name="name" ng-model="$ctrl.contactFormData.name">
-              <div ng-messages="$ctrl.contactForm.name.$error">
-                <div ng-message="required">Campo obrigatório.</div>
-              </div>
-            </md-input-container>
-          </div>
+<div class="ui-view contact" layout="row">
+  <div flex-gt-md="10"></div>
+  <div flex-gt-md="80" flex>
+    <div layout="column" layout-gt-sm="row" layout-align="center start">
+      <div flex>
+        <h1>Contato</h1>
+        <p>
+          Duvidas? Entre em contato.<br />
+          email: <a ng-href="mailto:{{ $ctrl.contactEmail }}">{{ $ctrl.contactEmail }}</a><br />
+          telefone / WhatsApp: {{ $ctrl.contactPhone }}
+        </p>
+        <p>
+          Caso prefira, entre em contato através do formulário.
+        </p>
+      </div>
+      <div flex>
+        <md-content class="contact-form">
+          <form name="$ctrl.contactForm" ng-submit="$ctrl.submitContactForm()" novalidate>
+            <div layout="row">
+              <md-input-container flex>
+                <label>Nome completo</label>
+                <input required name="name" ng-model="$ctrl.contactFormData.name">
+                <div ng-messages="$ctrl.contactForm.name.$error">
+                  <div ng-message="required">Campo obrigatório.</div>
+                </div>
+              </md-input-container>
+            </div>
 
-          <div layout="row">
-            <md-input-container flex="50">
-              <label>Telefone para contato</label>
-              <input required name="phone" ng-model="$ctrl.contactFormData.phone">
-              <div ng-messages="$ctrl.contactForm.phone.$error">
-                <div ng-message="required">Campo obrigatório.</div>
-              </div>
-            </md-input-container>
+            <div layout="row">
+              <md-input-container flex="50">
+                <label>Telefone para contato</label>
+                <input required name="phone" ng-model="$ctrl.contactFormData.phone">
+                <div ng-messages="$ctrl.contactForm.phone.$error">
+                  <div ng-message="required">Campo obrigatório.</div>
+                </div>
+              </md-input-container>
 
-            <md-input-container flex="50">
-              <label>e-mail para contato</label>
-              <input required name="email" ng-model="$ctrl.contactFormData.email">
-              <div ng-messages="$ctrl.contactForm.email.$error">
-                <div ng-message="required">Campo obrigatório.</div>
-              </div>
-            </md-input-container>
-          </div>
+              <md-input-container flex="50">
+                <label>e-mail para contato</label>
+                <input required name="email" ng-model="$ctrl.contactFormData.email">
+                <div ng-messages="$ctrl.contactForm.email.$error">
+                  <div ng-message="required">Campo obrigatório.</div>
+                </div>
+              </md-input-container>
+            </div>
 
-          <div layout="row">
-            <md-input-container flex>
-              <label>Mensagem</label>
-              <input md-maxlength="1000" required name="message" ng-model="$ctrl.contactFormData.message">
-              <div ng-messages="$ctrl.contactForm.message.$error">
-                <div ng-message="required">Campo obrigatório.</div>
-                <div ng-message="md-maxlength">A mensagem deve ter no máximo 1000 caracteres.</div>
-              </div>
-            </md-input-container>
-          </div>
+            <div layout="row">
+              <md-input-container flex>
+                <label>Mensagem</label>
+                <input md-maxlength="1000" required name="message" ng-model="$ctrl.contactFormData.message">
+                <div ng-messages="$ctrl.contactForm.message.$error">
+                  <div ng-message="required">Campo obrigatório.</div>
+                  <div ng-message="md-maxlength">A mensagem deve ter no máximo 1000 caracteres.</div>
+                </div>
+              </md-input-container>
+            </div>
 
-          <div layout="row">
-            <md-button type="submit" class="md-raised md-primary">Submit</md-button>
-          </div>
-        </form>
-      </md-content>
+            <div layout="row">
+              <md-button type="submit" class="md-raised md-primary">Submit</md-button>
+            </div>
+          </form>
+        </md-content>
+      </div>
     </div>
   </div>
+  <div flex-gt-md="10"></div>
 </div>
