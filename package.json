@@ -12,7 +12,8 @@
     "angular-aria": "^1.6.6",
     "angular-material": "^1.1.5",
     "angular-messages": "^1.6.6",
-    "angular-ui-router": "1.0.0-beta.3"
+    "angular-ui-router": "1.0.0-beta.3",
+    "material-design-icons": "^3.0.1"
   },
   "devDependencies": {
     "@types/angular": "^1.6.6",
