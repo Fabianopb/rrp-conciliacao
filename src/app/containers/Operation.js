@@ -1,4 +1,4 @@
-import '../styles/terms.scss';
+import '../styles/operation.scss';
 
 class OperationController {
   /** @ngInject */

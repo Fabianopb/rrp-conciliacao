@@ -1,6 +1,5 @@
-<div class="ui-view contact" layout="row">
-  <div flex-gt-md="10"></div>
-  <div flex-gt-md="80" flex>
+<flex-layout>
+  <div ng-transclude-slot="flexContent">
     <div layout="column" layout-gt-sm="row" layout-align="center start">
       <div flex>
         <h1>Contato</h1>
@@ -14,7 +13,7 @@
         </p>
       </div>
       <div flex>
-        <md-content class="contact-form">
+        <md-content>
           <form name="$ctrl.contactForm" ng-submit="$ctrl.submitContactForm()" novalidate>
             <div layout="row">
               <md-input-container flex>
@@ -63,5 +62,4 @@
       </div>
     </div>
   </div>
-  <div flex-gt-md="10"></div>
-</div>
+</flex-layout>

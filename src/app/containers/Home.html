@@ -37,18 +37,18 @@
     </div>
   </div>
   <div class="info-container ui-view" layout="row">
-    <div flex-gt-md="10"></div>
-    <div flex-gt-md="80">
-      <div class="info-paragraph">
-        <strong>Conciliação</strong>: indicada quando não há preocupação com a continuidade da relação e nos casos onde o importante é chegar num acordo; aqui o conciliador pode sugerir soluções para o caso (ex.: batida de carro).
+    <flex-layout>
+      <div ng-transclude-slot="flexContent">
+        <div class="info-paragraph">
+          <strong>Conciliação</strong>: indicada quando não há preocupação com a continuidade da relação e nos casos onde o importante é chegar num acordo; aqui o conciliador pode sugerir soluções para o caso (ex.: batida de carro).
+        </div>
+        <div class="info-paragraph">
+          <strong>Mediação:</strong> Aqui o mais importante é a continuidade da relação, por isso a função do mediador é auxiliar no diálogo entre os envolvidos para que eles encontrem uma solução para o conflito. (ex.: divórcio, guarda de filhos, conflitos entre vizinhos, conflitos escolares, condomínios, etc.)
+        </div>
+        <div class="info-paragraph">
+          <strong>Arbitragem:</strong> indicada quando as partes envolvidas num conflito não aceitam as propostas de acordo e não conseguem chegar a uma solução, assim preferem que uma terceira pessoa decida a questão.,(ex.: locação de imóveis, contrato de compra e venda de bens em geral, contratação de serviços, seguros, questões comerciais em geral).
+        </div>
       </div>
-      <div class="info-paragraph">
-        <strong>Mediação:</strong> Aqui o mais importante é a continuidade da relação, por isso a função do mediador é auxiliar no diálogo entre os envolvidos para que eles encontrem uma solução para o conflito. (ex.: divórcio, guarda de filhos, conflitos entre vizinhos, conflitos escolares, condomínios, etc.)
-      </div>
-      <div class="info-paragraph">
-        <strong>Arbitragem:</strong> indicada quando as partes envolvidas num conflito não aceitam as propostas de acordo e não conseguem chegar a uma solução, assim preferem que uma terceira pessoa decida a questão.,(ex.: locação de imóveis, contrato de compra e venda de bens em geral, contratação de serviços, seguros, questões comerciais em geral).
-      </div>
-    </div>
-    <div flex-gt-md="10"></div>
+    </flex-layout>
   </div>
 </div>
