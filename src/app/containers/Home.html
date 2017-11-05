@@ -10,19 +10,13 @@
       </div>
     </div>
   </div>
-  <div class="steps-container" layout="row">
-    <div ng-repeat="step in $ctrl.fourSteps" class="step-container" layout="column" layout-align="start center" flex>
-      <div><md-icon class="material-icons steps-icon">{{ step.icon }}</md-icon></div>
-      <div class="steps-text">{{ step.description }}</div>
-    </div>
-  </div>
-  <div class="info-container ui-view" layout="row">
-    <flex-layout>
-      <div ng-transclude-slot="flexContent">
-        <div ng-repeat="info in $ctrl.information" class="info-paragraph">
-          <strong>{{ info.title }}:</strong> {{ info.description }}
-        </div>
+  <flex-layout>
+    <div ng-transclude-slot="flexContent" class="values-container" layout="row">
+      <div ng-repeat="value in $ctrl.values" layout="column" layout-align="start center" flex>
+        <div><md-icon class="material-icons values-icon">{{ value.icon }}</md-icon></div>
+        <div class="values-text">{{ value.title }}</div>
+        <div class="values-text">{{ value.description }}</div>
       </div>
-    </flex-layout>
-  </div>
+    </div>
+  </flex-layout>
 </div>

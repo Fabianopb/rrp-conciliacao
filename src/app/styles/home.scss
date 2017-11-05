@@ -23,33 +23,19 @@
     }
   }
 
-  .steps-container {
-    padding-top: 20px;
+  .values-container {
+    padding-top: 40px;
 
-    .step-container {
-      padding: 16px;
-
-      .steps-icon {
-        color: #F7941D;
-        height: 100px;
-        width: 100px;
-        font-size: 100px;
-      }
-
-      .steps-text {
-        padding-top: 8px;
-        text-align: center;
-      }
+    .values-icon {
+      color: #F7941D;
+      height: 100px;
+      width: 100px;
+      font-size: 100px;
     }
-  }
 
-  .info-container {
-    margin-top: 40px;
-
-    .info-paragraph {
-      padding: 20px 40px;
-      text-align: justify;
-      line-height: 2;
+    .values-text {
+      padding-top: 8px;
+      text-align: center;
     }
   }
 

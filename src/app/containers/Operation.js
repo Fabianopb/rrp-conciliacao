@@ -1,15 +1,13 @@
 import '../styles/operation.scss';
+import strings from '../../assets/strings/operation.json';
 
 class OperationController {
   /** @ngInject */
-  constructor($log) {
-    this.log = $log;
-    this.init();
+  constructor() {
+    this.fourSteps = strings.fourSteps;
+    this.faq = strings.faq;
   }
 
-  init() {
-    this.log.log('Operation initialized');
-  }
 }
 
 export const OperationContainer = {
