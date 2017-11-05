@@ -5,4 +5,14 @@
 body {
   font-family: 'Nunito', sans-serif;
   color: $dark-primary-text-color;
+
+  .md-button {
+    border: 1px solid $light-primary-text-color;
+    border-radius: 4px;
+  }
+
+  .md-button:not([disabled]):hover {
+    background-color: rgba($light-primary-text-color, 0.3);
+    font-weight: bold;
+  }
 }
