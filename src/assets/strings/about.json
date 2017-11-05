@@ -1,0 +1,47 @@
+{
+  "about": {
+    "title": "Quem somos",
+    "description": [
+      "A RRP Conciliação, Mediação e Arbitragem foi criada para melhorar as relações entre as pessoas, tendo seu foco na resolução de conflitos judiciais e extra judiciais de forma online - via chat - de maneira rápida, eficiente e econômica proporcionando comodidade, segurança, eficiência e praticidade para as partes envolvidas.",
+      "Com mais de seis anos de experiência em Câmara de Conciliação, Mediação e Arbitragem, Rosana Paiva entendeu que este tipo de resolução de conflitos pode ajudar a mudar a vida das pessoas e se especializou na área de conciliação e mediação. Descobriu a plataforma online e desde então se dedica a solucionar de forma ágil e eficaz diversos tipos de casos."
+    ]
+  },
+  "strategy": [
+    {
+      "title": "Missão",
+      "description": "Nossa missão é resolver diversos conflitos de forma rápida, econômica e eficiente, através da conciliação online."
+    },
+    {
+      "title": "Visão",
+      "description": "(descrição da visão)"
+    },
+    {
+      "title": "Valores",
+      "description": "(descrição dos valores)"
+    }
+  ],
+  "areas": {
+    "title": "Áreas de atuação",
+    "description": "(descrição sobre as áreas de atuação)",
+    "content": [
+      "Condomínios",
+      "Escolas e Faculdades",
+      "Clínicas de saúde",
+      "Prestação de serviço",
+      "Família"
+    ]
+  },
+  "terms": {
+    "title": "Regulamento",
+    "description": "(descrição sobre o regulamento)"
+  },
+  "legislation": {
+    "title": "Legislação",
+    "description": "(descrição sobre a legislação)",
+    "content": [
+      "link1",
+      "link2",
+      "link3"
+    ]
+  }
+}

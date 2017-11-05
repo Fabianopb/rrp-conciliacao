@@ -1,36 +1,28 @@
 <flex-layout>
   <div ng-transclude-slot="flexContent">
-    <h1>Quem somos</h1>
-    <p>
-      A RRP Conciliação, Mediação e Arbitragem foi criada para melhorar as relações entre as pessoas, tendo seu foco na resolução de conflitos judiciais e extra judiciais de forma online - via chat - de maneira rápida, eficiente e econômica proporcionando comodidade, segurança, eficiência e praticidade para as partes envolvidas.
-    </p>
-    <p>
-      Com mais de seis anos de experiência em Câmara de Conciliação, Mediação e Arbitragem, Rosana Paiva entendeu que este tipo de resolução de conflitos pode ajudar a mudar a vida das pessoas e se especializou na área de conciliação e mediação. Descobriu a plataforma online e desde então se dedica a solucionar de forma ágil e eficaz diversos tipos de casos.
-    </p>
 
-    <h3>Missão</h3>
-    <p>Nossa missão é resolver diversos conflitos de forma rápida, econômica e eficiente, através da conciliação online.</p>
+    <h1>{{ $ctrl.about.title }}</h1>
+    <p ng-repeat="paragraph in $ctrl.about.description">{{ paragraph }}</p>
 
-    <h3>Visão</h3>
-    <p>Nossa visão é</p>
+    <div ng-repeat="strategy in $ctrl.strategy">
+      <h3>{{ strategy.title }}</h3>
+      <p>{{ strategy.description }}</p>
+    </div>
 
-    <h3>Valores</h3>
-    <p>Nossos valores são...</p>
-
-    <h3>Áreas de atuação</h3>
-    <p>A RRP atua em diversas áreas...</p>
+    <h3>{{ $ctrl.areas.title }}</h3>
+    <p>{{ $ctrl.areas.description }}</p>
     <ul>
-      <li>Condomínios</li>
-      <li>Escolas e Faculdades</li>
-      <li>Clínicas de saúde</li>
-      <li>Prestação de serviço</li>
-      <li>Família</li>
+      <li ng-repeat="area in $ctrl.areas.content">{{ area }}</li>
     </ul>
 
-    <h3>Regulamento</h3>
-    <p>link para abrir em pdf?</p>
+    <h3>{{ $ctrl.terms.title }}</h3>
+    <p>{{ $ctrl.terms.description }}</p>
 
-    <h3>Legislação</h3>
-    <p>Links para as leis e resoluções?</p>
+    <h3>{{ $ctrl.legislation.title }}</h3>
+    <p>{{ $ctrl.legislation.description }}</p>
+    <ul>
+      <li ng-repeat="law in $ctrl.legislation.content">{{ law }}</li>
+    </ul>
+
   </div>
 </flex-layout>
