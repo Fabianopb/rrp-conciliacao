@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "path": "home",
+      "caption": "Home"
+    },
+    {
+      "path": "about",
+      "caption": "Quem somos"
+    },
+    {
+      "path": "operation",
+      "caption": "Como Funciona?"
+    },
+    {
+      "path": "contact",
+      "caption": "Contato"
+    }
+  ]
+}

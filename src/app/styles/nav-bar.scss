@@ -26,4 +26,9 @@
     cursor: pointer;
     outline: 0;
   }
+
+  .selected {
+    cursor: auto;
+    font-weight: bold;
+  }
 }

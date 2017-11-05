@@ -1,4 +1,5 @@
 import '../styles/nav-bar.scss';
+import strings from '../../assets/strings/routes.json';
 import {contactPhone, contactEmail} from '../services/globalConstants';
 
 class NavBarController {
@@ -6,18 +7,17 @@ class NavBarController {
   constructor($log, $state) {
     this.log = $log;
     this.state = $state;
+    this.routes = strings.routes;
     this.contactPhone = contactPhone;
     this.contactEmail = contactEmail;
-    this.init();
   }
 
   goto(path) {
-    this.state.go(path);
+    if (this.state.current.name !== path) {
+      this.state.go(path);
+    }
   }
 
-  init() {
-    this.log.log('NavBar initialized');
-  }
 }
 
 export const NavBarComponent = {
