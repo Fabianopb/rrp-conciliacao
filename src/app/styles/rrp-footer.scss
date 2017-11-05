@@ -1,6 +1,8 @@
+@import 'variables';
+
 rrp-footer {
   margin-top: 40px;
-  background-color: #555555;
+  background-color: $terciary-color;
   color: white;
   height: 50px;
 }

@@ -1,6 +1,8 @@
 @import '../../../node_modules/material-design-icons/iconfont/material-icons.css';
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import 'variables';
 
 body {
   font-family: 'Nunito', sans-serif;
+  color: $dark-primary-text-color;
 }

@@ -1,3 +1,5 @@
+@import 'variables';
+
 .operation {
 
   .steps-container {
@@ -5,7 +7,7 @@
 
     .steps-icon {
       margin: 0 40px;
-      color: #F7941D;
+      color: $secondary-color;
       height: 100px;
       width: 100px;
       font-size: 100px;

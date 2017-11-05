@@ -1,20 +1,20 @@
+@import 'variables';
+
 .nav-bar {
 
   .contact-header {
     padding: 0 12px;
-    color: #FFFFFF;
+    color: $light-primary-text-color;
     font-size: 0.8rem;
     font-weight: bold;
-    background-color: #555555;
+    background-color: $terciary-color;
     height: 30px;
   }
 
   .menu-header {
     padding: 0 12px;
-    background-color: #204770;
-    color: #FFFFFF;
-    // background-color: #F2F3FF;
-    // height: 70px;
+    background-color: $primary-color;
+    color: $light-primary-text-color;
 
     .img-logo {
       height: 180px;
