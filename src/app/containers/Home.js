@@ -1,15 +1,14 @@
 import '../styles/home.scss';
+import strings from '../../assets/strings/home.json';
 
 class HomeController {
   /** @ngInject */
-  constructor($log) {
-    this.log = $log;
-    this.init();
+  constructor() {
+    this.heroSection = strings.heroSection;
+    this.fourSteps = strings.fourSteps;
+    this.information = strings.information;
   }
 
-  init() {
-    this.log.log('Home initialized');
-  }
 }
 
 export const HomeContainer = {

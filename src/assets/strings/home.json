@@ -1,0 +1,51 @@
+{
+  "heroSection": {
+    "description": "Uma maneira rápida, eficiente e econômica de resolver conflitos",
+    "buttons": [
+      {
+        "title": "Tem um conflito para resolver?",
+        "caption": "Envie seu caso"
+      },
+      {
+        "title": "Já está conciliando conosco?",
+        "caption": "Acompanhe seu caso"
+      },
+      {
+        "title": "Documentos para validar?",
+        "caption": "Valide seus documentos"
+      }
+    ]
+  },
+  "fourSteps": [
+    {
+      "icon": "file_upload",
+      "description": "Envie seu caso pelo sistema"
+    },
+    {
+      "icon": "mail_outline",
+      "description": "Convidamos as partes para a conciliação"
+    },
+    {
+      "icon": "schedule",
+      "description": "Agendamos os passos da conciliação"
+    },
+    {
+      "icon": "library_books",
+      "description": "Você recebe o termo de conciliação"
+    }
+  ],
+  "information": [
+    {
+      "title": "Conciliação",
+      "description": "Indicada quando não há preocupação com a continuidade da relação e nos casos onde o importante é chegar num acordo; aqui o conciliador pode sugerir soluções para o caso (ex.: batida de carro)."
+    },
+    {
+      "title": "Mediação",
+      "description": "Aqui o mais importante é a continuidade da relação, por isso a função do mediador é auxiliar no diálogo entre os envolvidos para que eles encontrem uma solução para o conflito. (ex.: divórcio, guarda de filhos, conflitos entre vizinhos, conflitos escolares, condomínios, etc.)"
+    },
+    {
+      "title": "Arbitragem",
+      "description": "Indicada quando as partes envolvidas num conflito não aceitam as propostas de acordo e não conseguem chegar a uma solução, assim preferem que uma terceira pessoa decida a questão.,(ex.: locação de imóveis, contrato de compra e venda de bens em geral, contratação de serviços, seguros, questões comerciais em geral)."
+    }
+  ]
+}
