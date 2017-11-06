@@ -18,17 +18,17 @@
   },
   "values": [
     {
-      "icon": "schedule",
+      "icon": "hourglass_empty",
       "title": "Rápido",
       "description": "(descrição)"
     },
     {
-      "icon": "schedule",
+      "icon": "lock",
       "title": "Seguro",
       "description": "(descrição)"
     },
     {
-      "icon": "schedule",
+      "icon": "monetization_on",
       "title": "Econômico",
       "description": "(descrição)"
     }
