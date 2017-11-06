@@ -16,7 +16,7 @@
     <string-parser type="title" content="$ctrl.faq.title"></string-parser>
 
     <div ng-repeat="info in $ctrl.faq.content" class="info-paragraph">
-      <div class="faq-question">{{ info.title }}</div>
+      <div class="faq-title">> {{ info.title }}</div>
       <string-parser type="paragraph" content="info.description"></string-parser>
     </div>
 

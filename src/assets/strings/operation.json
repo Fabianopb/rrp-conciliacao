@@ -36,21 +36,78 @@
     "title": "Perguntas frequentes",
     "content": [
       {
-        "title": "Conciliação",
+        "title": "O que é Conciliação?",
         "description": [
-          "Indicada quando não há preocupação com a continuidade da relação e nos casos onde o importante é chegar num acordo; aqui o conciliador pode sugerir soluções para o caso (ex.: batida de carro)."
+          "A Conciliação é indicada quando não há preocupação com a continuidade da relação e nos casos onde o importante é chegar num acordo; aqui o conciliador pode sugerir soluções para o caso (ex.: batida de carro)."
         ]
       },
       {
-        "title": "Mediação",
+        "title": "O que é Mediação?",
         "description": [
           "Aqui o mais importante é a continuidade da relação, por isso a função do mediador é auxiliar no diálogo entre os envolvidos para que eles encontrem uma solução para o conflito. (ex.: divórcio, guarda de filhos, conflitos entre vizinhos, conflitos escolares, condomínios, etc.)"
         ]
       },
       {
-        "title": "Arbitragem",
+        "title": "O que é Arbitragem?",
         "description": [
-          "Indicada quando as partes envolvidas num conflito não aceitam as propostas de acordo e não conseguem chegar a uma solução, assim preferem que uma terceira pessoa decida a questão.,(ex.: locação de imóveis, contrato de compra e venda de bens em geral, contratação de serviços, seguros, questões comerciais em geral)."
+          "A Arbitragem é indicada quando as partes envolvidas num conflito não aceitam as propostas de acordo e não conseguem chegar a uma solução, assim preferem que uma terceira pessoa decida a questão.,(ex.: locação de imóveis, contrato de compra e venda de bens em geral, contratação de serviços, seguros, questões comerciais em geral)."
+        ]
+      },
+      {
+        "title": "A Conciliação/Mediação online é legal?",
+        "description": [
+          "Sim. A conciliação/mediação online é exatamente como a presencial, porém o procedimento é todo feito online, o que torna a resolução dos conflitos mais fácil, rápida, prática e econômica para todos os envolvidos. LEI Nº 13.140, DE 26 DE JUNHO DE 2015 - Art. 46.  A mediação poderá ser feita pela internet ou por outro meio de comunicação que permita a transação à distância, desde que as partes estejam de acordo."
+        ]
+      },
+      {
+        "title": "Porque a Conciliação/Mediação online não é tão divulgada?",
+        "description": [
+          "No Brasil ainda é muito forte a cultura de enviar os conflitos para o Judiciário, ao invés de tentar primeiro uma conciliação de seu caso. Pelo novo Código de Processo Civil tornou-se obrigatória a audiência prévia de Conciliação/Mediação nos processos, com o objetivo de desafogar o Judiciário, criando uma fase em que as próprias partes podem tentar um acordo antes que a demanda vire um processo."
+        ]
+      },
+      {
+        "title": "Como funciona  a Conciliação/Mediação online?",
+        "description": [
+          "O procedimento é solicitado pela parte que tem interesse em resolver um conflito. Esse procedimento só terá continuação, se a outra parte envolvida no conflito aceitar o convite para participar de uma reunião online através de chat, sob a orientação de um conciliador/mediador. Finalizando o procedimento e obtido o acordo será gerado um Termo de acordo, onde será relatado todo esse acordo e os compromissos assumidos por cada parte. Caso não se consiga chegar a um acordo, será gerado um Termo de não acordo, formalizando que não foi possível chegar a um consenso."
+        ]
+      },
+      {
+        "title": "Quais as principais atribuições do Conciliador/Mediador?",
+        "description": [
+          "De início, o conciliador/mediador irá esclarecer as linhas gerais de atuação que irá seguir no exame das questões, pois é fundamental que as partes saibam exatamente o que vai acontecer no decorrer do procedimento. Durante a execução do trabalho, é de responsabilidade do conciliador/mediador coordenar e controlar as reuniões. Sua participação deve ser ativa, garantindo a ordem, levantando questões e promovendo reflexões."
+        ]
+      },
+      {
+        "title": "Quanto tempo dura um processo de Conciliação/Mediação online?",
+        "description": [
+          "O tempo de duração da Conciliação/Mediação online dependerá do tipo e persistência dos conflitos, da complexidade dos temas e do relacionamento entre as partes. Alguns casos são resolvidos até em 20 minutos, entretanto outros chegam a levar 7 (sete) dias. Mas em comparação com o Judiciário onde um processo leva em média 2 (dois) anos para ser resolvido, o tempo de solução na plataforma online é muito mais reduzido."
+        ]
+      },
+      {
+        "title": "Quais são as garantias de segurança dos documentos emitidos pelo RRP?",
+        "description": [
+          "Todos os documentos emitidos pela RRP possuem um código de autenticidade personalizado e criptografado, que possibilita a visualização da íntegra do documento por meio do campo AUTENTICIDADE."
+        ]
+      },
+      {
+        "title": "É necessária a presença de advogado na Conciliação/Mediação online?",
+
+        "description": [
+          "Não necessariamente. As partes podem participar sozinhas da conciliação/mediação online, porém se o seu caso já estiver na Justiça e você já tiver contratado um advogado, a conciliação deve ser realizada por ele, obrigatoriamente."
+        ]
+      },
+      {
+        "title": "Posso Conciliar/Mediar um caso que já está na Justiça?",
+
+        "description": [
+          "Sim. A conciliação/mediação pode ser realizada em qualquer momento do processo judicial. Se você tiver contratado um advogado para o sua ação judicial, ele é quem deve, obrigatoriamente, realizar a conciliação online."
+        ]
+      },
+      {
+        "title": "Quais as vantagens de Conciliar/Mediar online ",
+        "description": [
+          "Praticidade, segurança, rapidez, garantia de privacidade e sigilo absoluto, economia de tempo e custos com deslocamento e transporte, podendo participar da Conciliação/Mediação online no conforto de sua casa ou escritório. Além disso, promove a manutenção e melhoria do relacionamento entre as partes",
+          "Outra vantagem a ser ressaltada é que pelo chat as partes podem escrever e descrever seus conflitos, desenvolver diálogos, sem a pressão de um tribunal e o desconforto de estar em um mesmo espaço físico com quem lhe causou o conflito."
         ]
       }
     ]
