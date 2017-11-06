@@ -1,0 +1,15 @@
+<div class="string-parser">
+
+  <div ng-if="$ctrl.type === 'title'">
+    <div class="title">{{ $ctrl.content }}</div>
+  </div>
+
+  <div ng-if="$ctrl.type === 'subtitle'">
+    <div class="subtitle">{{ $ctrl.content }}</div>
+  </div>
+
+  <div ng-if="$ctrl.type === 'paragraph'">
+    <p ng-repeat="string in $ctrl.content">{{ string }}</p>
+  </div>
+
+</div>
