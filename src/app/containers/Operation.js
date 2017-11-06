@@ -5,6 +5,7 @@ class OperationController {
   /** @ngInject */
   constructor() {
     this.fourSteps = operationStrings.fourSteps;
+    this.validity = operationStrings.validity;
     this.faq = operationStrings.faq;
   }
 

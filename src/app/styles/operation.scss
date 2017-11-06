@@ -15,14 +15,20 @@
 
   }
 
-  .info-paragraph {
-    padding: 20px 0;
-    text-align: justify;
-    line-height: 2;
+  .faq-container {
+    margin-top: 40px;
 
-    .faq-title {
-      font-size: 1.4rem;
+    .faq-item {
+      padding: 20px 0;
+      text-align: justify;
+      line-height: 2;
+
+      .faq-title {
+        font-size: 1.4rem;
+      }
     }
   }
+
+
 
 }

@@ -13,11 +13,15 @@
       </div>
     </div>
 
-    <string-parser type="title" content="$ctrl.faq.title"></string-parser>
+    <string-parser type="title" content="$ctrl.validity.title"></string-parser>
+    <string-parser type="paragraph" content="$ctrl.validity.description"></string-parser>
 
-    <div ng-repeat="info in $ctrl.faq.content" class="info-paragraph">
-      <div class="faq-title">> {{ info.title }}</div>
-      <string-parser type="paragraph" content="info.description"></string-parser>
+    <div class="faq-container">
+      <string-parser type="title" content="$ctrl.faq.title"></string-parser>
+      <div ng-repeat="info in $ctrl.faq.content" class="faq-item">
+        <div class="faq-title">> {{ info.title }}</div>
+        <string-parser type="paragraph" content="info.description"></string-parser>
+      </div>
     </div>
 
   </div>

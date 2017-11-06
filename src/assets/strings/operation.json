@@ -1,8 +1,7 @@
 {
   "fourSteps": {
     "title": "Como Funciona?",
-    "content": [
-      {
+    "content": [{
         "icon": "file_upload",
         "title": "Envie seu caso pelo sistema",
         "description": [
@@ -32,10 +31,18 @@
       }
     ]
   },
+  "validity": {
+    "title": "Validade Jurídica",
+    "description": [
+      " O \"Termo de acordo\" tem o mesmo efeito da sentença de um Juiz. Como ambos são títulos executivos, no caso de descumprimento desse acordo, qualquer uma das partes pode comparecer no Judiciário e fazer valer o que está escrito nesse acordo, através de execução judicial.",
+      "Já havendo um acordo, não haverá necessidade do Juiz analisar e julgar novamente o caso, basta ele fazer valer a vontade das partes que consta nesse acordo.",
+      "No caso do \"Termo de não acordo\", como não se conseguiu uma conciliação online, qualquer uma das partes pode tentar uma conciliação no Judiciário ou deixar que o Juiz julgue e dê uma sentença.",
+      "Assim as partes poderão mostrar ao Juiz que já tentaram uma conciliação."
+    ]
+  },
   "faq": {
     "title": "Perguntas frequentes",
-    "content": [
-      {
+    "content": [{
         "title": "O que é Conciliação?",
         "description": [
           "A Conciliação é indicada quando não há preocupação com a continuidade da relação e nos casos onde o importante é chegar num acordo; aqui o conciliador pode sugerir soluções para o caso (ex.: batida de carro)."
