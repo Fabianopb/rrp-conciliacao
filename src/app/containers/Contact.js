@@ -1,12 +1,12 @@
 import '../styles/contact.scss';
-import {contactPhone, contactEmail} from '../services/globalConstants';
+import sharedStrings from '../../assets/strings/shared.json';
 
 class ContactController {
   /** @ngInject */
   constructor($log) {
     this.log = $log;
-    this.contactPhone = contactPhone;
-    this.contactEmail = contactEmail;
+    this.contactPhone = sharedStrings.contactPhone;
+    this.contactEmail = sharedStrings.contactEmail;
     this.init();
   }
 

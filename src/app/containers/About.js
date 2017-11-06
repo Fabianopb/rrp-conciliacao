@@ -1,14 +1,14 @@
 import '../styles/about.scss';
-import strings from '../../assets/strings/about.json';
+import aboutStrings from '../../assets/strings/about.json';
 
 class AboutController {
   /** @ngInject */
   constructor() {
-    this.about = strings.about;
-    this.strategy = strings.strategy;
-    this.areas = strings.areas;
-    this.terms = strings.terms;
-    this.legislation = strings.legislation;
+    this.about = aboutStrings.about;
+    this.strategy = aboutStrings.strategy;
+    this.areas = aboutStrings.areas;
+    this.terms = aboutStrings.terms;
+    this.legislation = aboutStrings.legislation;
   }
 
 }

@@ -1,11 +1,11 @@
 import '../styles/operation.scss';
-import strings from '../../assets/strings/operation.json';
+import operationStrings from '../../assets/strings/operation.json';
 
 class OperationController {
   /** @ngInject */
   constructor() {
-    this.fourSteps = strings.fourSteps;
-    this.faq = strings.faq;
+    this.fourSteps = operationStrings.fourSteps;
+    this.faq = operationStrings.faq;
   }
 
 }

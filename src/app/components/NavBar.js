@@ -1,15 +1,15 @@
 import '../styles/nav-bar.scss';
-import strings from '../../assets/strings/routes.json';
-import {contactPhone, contactEmail} from '../services/globalConstants';
+import routesStrings from '../../assets/strings/routes.json';
+import sharedStrings from '../../assets/strings/shared.json';
 
 class NavBarController {
   /** @ngInject */
   constructor($log, $state) {
     this.log = $log;
     this.state = $state;
-    this.routes = strings.routes;
-    this.contactPhone = contactPhone;
-    this.contactEmail = contactEmail;
+    this.routes = routesStrings.routes;
+    this.contactPhone = sharedStrings.contactPhone;
+    this.contactEmail = sharedStrings.contactEmail;
   }
 
   goto(path) {
