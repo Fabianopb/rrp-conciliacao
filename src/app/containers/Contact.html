@@ -1,15 +1,17 @@
-<flex-layout>
+<flex-layout class="contact">
   <div ng-transclude-slot="flexContent">
     <div layout="column" layout-gt-sm="row" layout-align="center start">
       <div flex>
         <h1>Contato</h1>
         <p>
-          Duvidas? Entre em contato.<br />
-          email: <a ng-href="mailto:{{ $ctrl.contactEmail }}">{{ $ctrl.contactEmail }}</a><br />
-          telefone / WhatsApp: {{ $ctrl.contactPhone }}
+          Duvidas? Entre em contato.<br /><br />
+          <md-icon class="material-icons contact-icon">{{ $ctrl.contactEmail.icon }}</md-icon>
+          <a ng-href="mailto:{{ $ctrl.contactEmail.content }}">{{ $ctrl.contactEmail.content }}</a><br />
+          <md-icon class="material-icons contact-icon">{{ $ctrl.contactPhone.icon }}</md-icon>
+          {{ $ctrl.contactPhone.content }}
         </p>
         <p>
-          Caso prefira, entre em contato através do formulário.
+          Se preferir, entre em contato através do formulário.
         </p>
       </div>
       <div flex>

@@ -1,6 +1,13 @@
 <div class="nav-bar" layout="column">
   <div class="contact-header" layout="row" layout-align="end center">
-    <div>{{ $ctrl.contactEmail }} / {{ $ctrl.contactPhone }}</div>
+    <div>
+      <md-icon class="material-icons contact-icon">{{ $ctrl.contactEmail.icon }}</md-icon>
+      {{ $ctrl.contactEmail.content }}
+    </div>
+    <div>
+      <md-icon class="material-icons contact-icon">{{ $ctrl.contactPhone.icon }}</md-icon>
+      {{ $ctrl.contactPhone.content }}
+    </div>
   </div>
   <div class="menu-header" layout="row" layout-align="space-between center">
     <div flex="30">

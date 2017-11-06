@@ -1,4 +1,10 @@
 {
-  "contactPhone": "(11) 97331-5997",
-  "contactEmail": "rrpconciliacao@gmail.com"
+  "contactPhone": {
+    "icon": "phone",
+    "content": "(11) 97331-5997"
+  },
+  "contactEmail": {
+    "icon": "email",
+    "content": "rrpconciliacao@gmail.com"
+  }
 }

@@ -9,6 +9,14 @@
     font-weight: bold;
     background-color: $terciary-color;
     height: 30px;
+
+    .contact-icon {
+      margin: 4px 0 0 16px;
+      height: 1.2rem;
+      width: 1.2rem;
+      font-size: 1.2rem;
+      color: $light-primary-text-color;
+    }
   }
 
   .menu-header {
