@@ -41,11 +41,11 @@
   },
   "terms": {
     "title": "Regulamento",
-    "description": "(descrição sobre o regulamento)"
+    "description": "Acesse o regulamento aqui:"
   },
   "legislation": {
     "title": "Legislação",
-    "description": "(descrição sobre a legislação)",
+    "description": "Principais leis e resoluções:",
     "content": [
       "link1",
       "link2",
