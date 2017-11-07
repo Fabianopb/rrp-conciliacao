@@ -1,24 +1,23 @@
 <flex-layout>
   <div ng-transclude-slot="flexContent">
 
-    <h1>{{ $ctrl.about.title }}</h1>
-    <p ng-repeat="paragraph in $ctrl.about.description">{{ paragraph }}</p>
+    <string-parser type="title" content="$ctrl.about.title"></string-parser>
+    <string-parser type="paragraph" content="$ctrl.about.description"></string-parser>
 
     <div ng-repeat="strategy in $ctrl.strategy">
-      <h3>{{ strategy.title }}</h3>
-      <p>{{ strategy.description }}</p>
+      <string-parser type="subtitle" content="strategy.title"></string-parser>
+      <string-parser type="paragraph" content="strategy.description"></string-parser>
     </div>
 
-    <h3>{{ $ctrl.areas.title }}</h3>
-    <p>{{ $ctrl.areas.description }}</p>
+    <string-parser type="subtitle" content="$ctrl.areas.title"></string-parser>
     <ul>
       <li ng-repeat="area in $ctrl.areas.content">{{ area }}</li>
     </ul>
 
-    <h3>{{ $ctrl.terms.title }}</h3>
+    <string-parser type="subtitle" content="$ctrl.terms.title"></string-parser>
     <p>{{ $ctrl.terms.description }}</p>
 
-    <h3>{{ $ctrl.legislation.title }}</h3>
+    <string-parser type="subtitle" content="$ctrl.legislation.title"></string-parser>
     <p>{{ $ctrl.legislation.description }}</p>
     <ul>
       <li ng-repeat="law in $ctrl.legislation.content">{{ law }}</li>
