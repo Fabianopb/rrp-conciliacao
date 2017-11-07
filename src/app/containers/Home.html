@@ -12,10 +12,10 @@
   </div>
   <flex-layout>
     <div ng-transclude-slot="flexContent" class="values-container" layout="row">
-      <div ng-repeat="value in $ctrl.values" layout="column" layout-align="start center" flex>
+      <div class="values-box" ng-repeat="value in $ctrl.values" layout="column" layout-align="start center" flex>
         <div><md-icon class="material-icons values-icon">{{ value.icon }}</md-icon></div>
-        <div class="values-text">{{ value.title }}</div>
-        <div class="values-text">{{ value.description }}</div>
+        <string-parser type="subtitle" content="value.title"></string-parser>
+        <string-parser class="values-text" type="paragraph" content="value.description"></string-parser>
       </div>
     </div>
   </flex-layout>

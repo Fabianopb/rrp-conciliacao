@@ -18,19 +18,24 @@
   }
 
   .values-container {
-    padding-top: 40px;
+    margin-top: 40px;
 
-    .values-icon {
-      color: $secondary-color;
-      height: 100px;
-      width: 100px;
-      font-size: 100px;
+    .values-box {
+      margin: 0 20px;
+
+      .values-icon {
+        color: $secondary-color;
+        height: 100px;
+        width: 100px;
+        font-size: 100px;
+      }
+
+      .values-text {
+        text-align: center;
+      }
+
     }
 
-    .values-text {
-      padding-top: 8px;
-      text-align: center;
-    }
   }
 
 }
