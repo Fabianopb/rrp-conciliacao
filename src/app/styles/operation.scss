@@ -26,6 +26,22 @@
       .faq-title {
         font-size: 1.4rem;
       }
+
+      .faq-hidden {
+        overflow: hidden;
+        border: 1px solid;
+        display: block;
+        height: 0px;
+        transition: height 1s linear;
+      }
+
+      .faq-visible {
+        overflow: hidden;
+        border: 1px solid;
+        display: block;
+        height: auto;
+        transition: height 1s linear;
+      }
     }
   }
 
