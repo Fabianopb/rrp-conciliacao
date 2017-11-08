@@ -28,20 +28,31 @@
         border-bottom: 2px solid $dark-primary-text-color;
         cursor: pointer;
         outline: 0;
+        transform: rotateZ(0deg);
+
+        .faq-0deg {
+          transform: rotateZ(0deg);
+          transition: transform 0.2s ease-in-out;
+        }
+
+        .faq-90deg {
+          transform: rotateZ(90deg);
+          transition: transform 0.2s ease-in-out;
+        }
       }
 
       .faq-hidden {
         overflow: hidden;
         display: block;
         max-height: 0px;
-        transition: max-height 0.5s ease-in-out;
+        transition: max-height 0.3s ease-in-out;
       }
 
       .faq-visible {
         overflow: hidden;
         display: block;
-        max-height: 1000px;
-        transition: max-height 0.5s ease-in-out;
+        max-height: 400px;
+        transition: max-height 0.3s ease-in-out;
       }
     }
   }
