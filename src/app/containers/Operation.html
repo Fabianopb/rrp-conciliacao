@@ -20,7 +20,8 @@
       <string-parser type="title" content="$ctrl.faq.title"></string-parser>
       <div ng-repeat="info in $ctrl.faq.content track by $index" class="faq-item">
         <div class="faq-title" ng-click="$ctrl.toggle($index)">> {{ info.title }}</div>
-        <string-parser ng-class="$ctrl.shouldRender($index) ? 'faq-visible': 'faq-hidden'"type="paragraph" content="info.description"></string-parser>
+        <string-parser ng-class="$ctrl.shouldRender($index) ? 'faq-visible': 'faq-hidden'" type="paragraph" content="info.description">
+        </string-parser>
       </div>
     </div>
 

@@ -25,22 +25,23 @@
 
       .faq-title {
         font-size: 1.4rem;
+        border-bottom: 2px solid $dark-primary-text-color;
+        cursor: pointer;
+        outline: 0;
       }
 
       .faq-hidden {
         overflow: hidden;
-        border: 1px solid;
         display: block;
-        height: 0px;
-        transition: height 1s linear;
+        max-height: 0px;
+        transition: max-height 0.5s ease-in-out;
       }
 
       .faq-visible {
         overflow: hidden;
-        border: 1px solid;
         display: block;
-        height: auto;
-        transition: height 1s linear;
+        max-height: 1000px;
+        transition: max-height 0.5s ease-in-out;
       }
     }
   }
