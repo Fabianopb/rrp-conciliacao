@@ -1,8 +1,7 @@
 {
   "heroSection": {
     "description": "Uma maneira rápida, segura e econômica de resolver conflitos",
-    "buttons": [
-      {
+    "buttons": [{
         "title": "Tem um conflito para resolver?",
         "caption": "Envie seu caso"
       },
@@ -16,8 +15,7 @@
       }
     ]
   },
-  "values": [
-    {
+  "values": [{
       "icon": "hourglass_empty",
       "title": "Rápido",
       "description": [
@@ -41,15 +39,18 @@
   ],
   "areas": {
     "title": "Áreas de atuação",
+    "description": [
+      "A Conciliação e Mediação Online pode te ajudar atuando em diversos tipos de conflitos, como:"
+    ],
     "content": [
-      "Condomínios - inadimplência, discussões sobre vazamentos entre as unidades, barulho excessivo, cachorros e outros animais de estimação, carros mal estacionados, crianças utilizando espaços inadequadamente.",
-      "Escolas e Faculdades - inadimplência, brigas entre os alunos, conflitos entre alunos e professores, entre pais e professores, entre a administração e os professores ou pais, bullying, descumpimento de contrato.",
-      "Clínicas de Saúde, Estética e Cirurgias - inadimplência, conflitos entre a administração e os funcionários, conflitos entre clientes e atendentes, descumprimento de contrato.",
-      "Prestação de serviços - descumprimento de contrato, abandono do serviço antes do término.",
-      "Família - divórcio, união estável de relações hetero e homossexual, alimentos, guarda, visitas de filhos.",
-      "Seguros - de vida, saúde, responsabilidade civil, dano material, reclamação de serviços, discussões de cláusulas contratuais e ressarcimentos junto a terceiros eventualmente culpados.",
-      "Imobiliária - prazo vencido para entrega do imóvel, entrega pontual mas com defeitos de construção, descumprimento de contrato, cláusulas abusivas.",
-      "Empresas de telefonia - cobrança indevida, demora no cancelamento de planos, negativação indevida."
+      "Condomínios - inadimplência, vazamentos, excesso de ruído, problemas de garagem e carros mal estacionados...",
+      "Escolas e Faculdades - descumpimento de contrato, inadimplência, conflitos entre alunos/professores/ pais/ administração...",
+      "Clínicas de Saúde, Estética e Cirurgias - conflitos entre administração/funcionários/clientes, descumprimento de contrato...",
+      "Prestação de serviços - descumprimento de contrato, abandono do serviço antes do término...",
+      "Família - divórcio, união estável de relações, guarda, visitas de filhos...",
+      "Seguros - responsabilidade civil, dano material, reclamação de serviços, discussões de cláusulas contratuais...",
+      "Imobiliária - prazo vencido para entrega do imóvel, entrega com defeitos de construção, descumprimento de contrato...",
+      "Empresas de telefonia - cobrança incorreta, demora no cancelamento de planos, negativação indevida..."
     ]
   }
 }

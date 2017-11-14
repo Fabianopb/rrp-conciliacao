@@ -28,7 +28,8 @@
   ],
   "terms": {
     "title": "Regulamento",
-    "description": "Acesse o regulamento aqui:"
+    "description": "Acesse o regulamento aqui:",
+    "link": "../../assets/content/rrp-regulamento.pdf"
   },
   "legislation": {
     "title": "Legislação",
