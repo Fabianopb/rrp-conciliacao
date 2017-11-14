@@ -1,7 +1,8 @@
 {
   "heroSection": {
     "description": "Uma maneira rápida, segura e econômica de resolver conflitos",
-    "buttons": [{
+    "buttons": [
+      {
         "title": "Tem um conflito para resolver?",
         "caption": "Envie seu caso"
       },
@@ -15,25 +16,26 @@
       }
     ]
   },
-  "values": [{
+  "values": [
+    {
       "icon": "hourglass_empty",
       "title": "Rápido",
       "description": [
-        "Por não ser necessário apresentação de provas, um acordo pode ser realizado em minutos numa única sessão online, enquanto que no Judiciário pode demorar anos."
+        "Com nossa plataforma, a audência de conciliação é agendada em alguns dias depois do envio do caso. O acordo pode ser realizado em minutos numa única sessão online, enquanto que no Judiciário pode demorar anos."
       ]
     },
     {
       "icon": "lock",
       "title": "Seguro",
       "description": [
-        "Devido a garantia de privacidade e de sigilo, e também porque todos os acordos conseguidos por meio da conciliação tem força de decisão judicial, além disso os Termos de Acordo possuem um código para serem autenticados/validados no sistema."
+        "O sistema que utilizamos é moderno e totalmente seguro, garantindo a privacidade e o sigilo. Todos os acordos realizados por meio da conciliação/mediação online tem força de decisão judicial"
       ]
     },
     {
       "icon": "monetization_on",
       "title": "Econômico",
       "description": [
-        "As partes não precisam gastar com documentos, produção de provas e custas judiciais. Não perdem tempo com deslocamento aos Fóruns, nem sofrem o desgaste emocional de ficar mantendo um conflito por tempo indeterminado."
+        "As partes perdem tempo de deslocamento, já que as audiências são realizadas via chat. Além disso, não precisam gastar com documentos, produção de provas e custas judiciais. "
       ]
     }
   ],
