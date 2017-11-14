@@ -15,7 +15,6 @@
       text-align: center;
       font-size: 2.5rem;
     }
-
   }
 
   .content-container {
@@ -34,11 +33,14 @@
       .values-text {
         text-align: justify;
       }
-
     }
 
     .areas-container {
-      margin-top: 80px;
+      margin-top: 40px;
+
+      .area-item {
+        margin-bottom: 8px;
+      }
     }
 
   }

@@ -21,11 +21,13 @@
         </div>
       </div>
 
+      <md-divider></md-divider>
+
       <div class="areas-container">
         <string-parser type="subtitle" content="$ctrl.areas.title"></string-parser>
         <string-parser type="paragraph" content="$ctrl.areas.description"></string-parser>
         <ul>
-          <li ng-repeat="area in $ctrl.areas.content">{{ area }}</li>
+          <li class="area-item" ng-repeat="area in $ctrl.areas.content">{{ area }}</li>
         </ul>
       </div>
 
