@@ -6,6 +6,7 @@ class HomeController {
   constructor() {
     this.heroSection = homeStrings.heroSection;
     this.values = homeStrings.values;
+    this.areas = homeStrings.areas;
   }
 
 }

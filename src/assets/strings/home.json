@@ -38,5 +38,18 @@
         "As partes não precisam gastar com documentos, produção de provas e custas judiciais. Não perdem tempo com deslocamento aos Fóruns, nem sofrem o desgaste emocional de ficar mantendo um conflito por tempo indeterminado."
       ]
     }
-  ]
+  ],
+  "areas": {
+    "title": "Áreas de atuação",
+    "content": [
+      "Condomínios - inadimplência, discussões sobre vazamentos entre as unidades, barulho excessivo, cachorros e outros animais de estimação, carros mal estacionados, crianças utilizando espaços inadequadamente.",
+      "Escolas e Faculdades - inadimplência, brigas entre os alunos, conflitos entre alunos e professores, entre pais e professores, entre a administração e os professores ou pais, bullying, descumpimento de contrato.",
+      "Clínicas de Saúde, Estética e Cirurgias - inadimplência, conflitos entre a administração e os funcionários, conflitos entre clientes e atendentes, descumprimento de contrato.",
+      "Prestação de serviços - descumprimento de contrato, abandono do serviço antes do término.",
+      "Família - divórcio, união estável de relações hetero e homossexual, alimentos, guarda, visitas de filhos.",
+      "Seguros - de vida, saúde, responsabilidade civil, dano material, reclamação de serviços, discussões de cláusulas contratuais e ressarcimentos junto a terceiros eventualmente culpados.",
+      "Imobiliária - prazo vencido para entrega do imóvel, entrega pontual mas com defeitos de construção, descumprimento de contrato, cláusulas abusivas.",
+      "Empresas de telefonia - cobrança indevida, demora no cancelamento de planos, negativação indevida."
+    ]
+  }
 }

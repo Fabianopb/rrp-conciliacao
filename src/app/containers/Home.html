@@ -11,12 +11,23 @@
     </div>
   </div>
   <flex-layout>
-    <div ng-transclude-slot="flexContent" class="values-container" layout="row">
-      <div class="values-box" ng-repeat="value in $ctrl.values" layout="column" layout-align="start center" flex>
-        <div><md-icon class="material-icons values-icon">{{ value.icon }}</md-icon></div>
-        <string-parser type="subtitle" content="value.title"></string-parser>
-        <string-parser class="values-text" type="paragraph" content="value.description"></string-parser>
+    <div ng-transclude-slot="flexContent" class="content-container">
+
+      <div layout="row">
+        <div class="values-box" ng-repeat="value in $ctrl.values" layout="column" layout-align="start center" flex>
+          <div><md-icon class="material-icons values-icon">{{ value.icon }}</md-icon></div>
+          <string-parser type="subtitle" content="value.title"></string-parser>
+          <string-parser class="values-text" type="paragraph" content="value.description"></string-parser>
+        </div>
       </div>
+
+      <div class="areas-container">
+        <string-parser type="subtitle" content="$ctrl.areas.title"></string-parser>
+        <ul>
+          <li ng-repeat="area in $ctrl.areas.content">{{ area }}</li>
+        </ul>
+      </div>
+
     </div>
   </flex-layout>
 </div>

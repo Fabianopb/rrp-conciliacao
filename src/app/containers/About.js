@@ -6,7 +6,6 @@ class AboutController {
   constructor() {
     this.about = aboutStrings.about;
     this.strategy = aboutStrings.strategy;
-    this.areas = aboutStrings.areas;
     this.terms = aboutStrings.terms;
     this.legislation = aboutStrings.legislation;
   }
