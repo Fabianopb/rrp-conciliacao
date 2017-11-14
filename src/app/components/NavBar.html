@@ -14,7 +14,7 @@
       <img class="img-logo" src="../../assets/images/logo.png" />
     </div>
     <div layout="row" layout-align="space-around center" flex>
-      <md-button>Envie seu caso</md-button>
+      <md-button ng-click="$ctrl.goto('notFound')">Envie seu caso</md-button>
       <div ng-repeat="route in $ctrl.routes" class="nav-link" ng-class="{selected: $ctrl.state.current.name === route.path}" ng-click="$ctrl.goto(route.path)">
         {{ route.caption }}
       </div>

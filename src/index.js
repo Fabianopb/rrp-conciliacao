@@ -4,6 +4,8 @@ import {HomeContainer} from './app/containers/Home';
 import {AboutContainer} from './app/containers/About';
 import {OperationContainer} from './app/containers/Operation';
 import {ContactContainer} from './app/containers/Contact';
+import {NotFoundContainer} from './app/containers/NotFound';
+
 import {FlexLayoutComponent} from './app/components/FlexLayout';
 import {NavBarComponent} from './app/components/NavBar';
 import {RrpFooterComponent} from './app/components/RrpFooter';
@@ -27,6 +29,7 @@ angular
   .component('about', AboutContainer)
   .component('operation', OperationContainer)
   .component('contact', ContactContainer)
+  .component('notFound', NotFoundContainer)
   .component('flexLayout', FlexLayoutComponent)
   .component('navBar', NavBarComponent)
   .component('rrpFooter', RrpFooterComponent)

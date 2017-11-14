@@ -3,7 +3,8 @@ import homeStrings from '../../assets/strings/home.json';
 
 class HomeController {
   /** @ngInject */
-  constructor() {
+  constructor($state) {
+    this.state = $state;
     this.heroSection = homeStrings.heroSection;
     this.values = homeStrings.values;
     this.areas = homeStrings.areas;

@@ -21,5 +21,9 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     .state('contact', {
       url: '/contato',
       component: 'contact'
+    })
+    .state('notFound', {
+      url: '/404',
+      component: 'notFound'
     });
 }
