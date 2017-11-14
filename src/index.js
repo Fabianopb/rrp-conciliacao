@@ -1,6 +1,5 @@
 import angular from 'angular';
 
-import {BuildingContainer} from './app/containers/Building';
 import {HomeContainer} from './app/containers/Home';
 import {AboutContainer} from './app/containers/About';
 import {OperationContainer} from './app/containers/Operation';
@@ -24,7 +23,6 @@ export const app = 'app';
 angular
   .module(app, ['ui.router', 'ngMaterial', 'ngMessages'])
   .config(routesConfig)
-  .component('building', BuildingContainer)
   .component('home', HomeContainer)
   .component('about', AboutContainer)
   .component('operation', OperationContainer)
