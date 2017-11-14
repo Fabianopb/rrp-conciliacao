@@ -47,9 +47,18 @@
     "title": "Legislação",
     "description": "Principais leis e resoluções:",
     "content": [
-      "link1",
-      "link2",
-      "link3"
+      {
+        "name": "Lei da mediação",
+        "link": "http://www.conima.org.br/lei_mediacao"
+      },
+      {
+        "name": "Código de processo civil que fala dos métodos alternativos",
+        "link": "http://www.conima.org.br/codigo_processo_civil_2015"
+      },
+      {
+        "name": "Código de ética dos mediadores",
+        "link": "http://www.conima.org.br/codigo_etica_med"
+      }
     ]
   }
 }

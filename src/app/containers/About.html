@@ -20,7 +20,9 @@
     <string-parser type="subtitle" content="$ctrl.legislation.title"></string-parser>
     <p>{{ $ctrl.legislation.description }}</p>
     <ul>
-      <li ng-repeat="law in $ctrl.legislation.content">{{ law }}</li>
+      <li ng-repeat="law in $ctrl.legislation.content">
+        <a ng-href="{{ law.link }}" target="_blank">{{ law.name }}</a>
+      </li>
     </ul>
 
   </div>
