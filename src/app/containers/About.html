@@ -1,16 +1,20 @@
-<flex-layout>
+<flex-layout class="about">
   <div ng-transclude-slot="flexContent">
 
     <string-parser type="title" content="$ctrl.about.title"></string-parser>
     <string-parser type="paragraph" content="$ctrl.about.description"></string-parser>
 
-    <div ng-repeat="strategy in $ctrl.strategy">
-      <string-parser type="subtitle" content="strategy.title"></string-parser>
-      <string-parser type="paragraph" content="strategy.description"></string-parser>
+    <div class="section">
+      <div ng-repeat="strategy in $ctrl.strategy">
+        <string-parser type="subtitle" content="strategy.title"></string-parser>
+        <string-parser type="paragraph" content="strategy.description"></string-parser>
+      </div>
     </div>
 
-    <string-parser type="subtitle" content="$ctrl.terms.title"></string-parser>
-    <p>{{ $ctrl.terms.description }}</p>
+    <div class="section">
+      <string-parser type="subtitle" content="$ctrl.terms.title"></string-parser>
+      <p>{{ $ctrl.terms.description }}<a ng-href="{{ $ctrl.terms.link }}" target="_blank">{{ $ctrl.terms.linkName }}</a></p>
+    </div>
 
     <string-parser type="subtitle" content="$ctrl.legislation.title"></string-parser>
     <p>{{ $ctrl.legislation.description }}</p>
