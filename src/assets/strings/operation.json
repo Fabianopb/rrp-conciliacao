@@ -32,14 +32,13 @@
     ]
   },
   "validity": {
-    "title": "Validade Jurídica",
-    "description": [
-      " O \"Termo de acordo\" tem o mesmo efeito da sentença de um Juiz. Como ambos são títulos executivos, no caso de descumprimento desse acordo, qualquer uma das partes pode comparecer no Judiciário e fazer valer o que está escrito nesse acordo, através de execução judicial.",
-      "Já havendo um acordo, não haverá necessidade do Juiz analisar e julgar novamente o caso, basta ele fazer valer a vontade das partes que consta nesse acordo.",
-      "No caso do \"Termo de não acordo\", como não se conseguiu uma conciliação online, qualquer uma das partes pode tentar uma conciliação no Judiciário ou deixar que o Juiz julgue e dê uma sentença.",
-      "Assim as partes poderão mostrar ao Juiz que já tentaram uma conciliação."
-    ]
-  },
+		"title": "Validade Jurídica",
+		"description": [
+			" O \"Termo de Acordo\" é emitido quando a conciliação e mediação online tiver êxito. O Termo tem efeito legal, ou seja, o mesmo efeito da sentença de um Juiz. No caso de descumprimento desse acordo, qualquer uma das partes pode comparecer no Judiciário e fazer valer o que está escrito, através de execução judicial.",
+			"O \"Termo de Não Acordo\", é emitido para aqueles que não conseguiram obter êxito e comprova a tentativa de acordo. Se uma das partes quiser, pode tentar uma conciliação no Judiciário para que Juiz dê uma sentença.",
+			"Se por acaso alguma das partes não for localizada, não aceitar ou responder o convite de audiência ou não se manifestar no chat, é emitido uma \"Declaração de Tentativa\", que comprova a tentativa de uma das partes de negociar."
+		]
+	},
   "faq": {
     "title": "Perguntas frequentes",
     "content": [{
