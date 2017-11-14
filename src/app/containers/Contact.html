@@ -3,18 +3,20 @@
     <div layout="column" layout-gt-sm="row" layout-align="center start">
       <div flex>
         <h1>Contato</h1>
+        <p>Duvidas? Entre em contato.</p>
         <p>
-          Duvidas? Entre em contato.<br /><br />
           <md-icon class="material-icons contact-icon">{{ $ctrl.contactEmail.icon }}</md-icon>
-          <a ng-href="mailto:{{ $ctrl.contactEmail.content }}">{{ $ctrl.contactEmail.content }}</a><br />
+          {{ $ctrl.contactEmail.content }}
+        </p>
+        <p>
           <md-icon class="material-icons contact-icon">{{ $ctrl.contactPhone.icon }}</md-icon>
           {{ $ctrl.contactPhone.content }}
         </p>
-        <p>
+        <!-- <p>
           Se preferir, entre em contato através do formulário.
-        </p>
+        </p> -->
       </div>
-      <div flex>
+      <!-- <div flex>
         <md-content>
           <form name="$ctrl.contactForm" ng-submit="$ctrl.submitContactForm()" novalidate>
             <div layout="row">
@@ -61,7 +63,7 @@
             </div>
           </form>
         </md-content>
-      </div>
+      </div> -->
     </div>
   </div>
 </flex-layout>
