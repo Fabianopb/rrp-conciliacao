@@ -1,8 +1,18 @@
 .contact {
-  .contact-icon {
-    margin-right: 8px;
-    height: 1.6rem;
-    width: 1.6rem;
-    font-size: 1.6rem;
+
+  .contact-image {
+    max-width: 100%;
+  }
+
+  .contact-info {
+    margin-left: 40px;
+
+    .contact-icon {
+      margin-right: 8px;
+      height: 1.6rem;
+      width: 1.6rem;
+      font-size: 1.6rem;
+    }
+
   }
 }
