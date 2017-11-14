@@ -19,13 +19,13 @@
     margin-top: 40px;
 
     .faq-item {
-      padding: 20px 0;
+      padding: 12px 0;
       text-align: justify;
-      line-height: 2;
+      line-height: 1.5;
 
       .faq-title {
-        font-size: 1.4rem;
-        border-bottom: 2px solid $dark-primary-text-color;
+        font-size: 1.1rem;
+        border-bottom: 1px solid rgba($dark-primary-text-color, 0.25);
         cursor: pointer;
         outline: 0;
         transform: rotateZ(0deg);
@@ -39,6 +39,11 @@
           transform: rotateZ(90deg);
           transition: transform 0.2s ease-in-out;
         }
+      }
+
+      .faq-title:hover {
+        background-color: $light-background-hightlight-color;
+        transition: background-color 0.2s ease-in-out;
       }
 
       .faq-hidden {
