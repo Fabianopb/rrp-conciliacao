@@ -8,7 +8,7 @@
     <div class="subtitle">{{ $ctrl.content }}</div>
   </div>
 
-  <div ng-if="$ctrl.type === 'paragraph'">
+  <div class="paragraph" ng-if="$ctrl.type === 'paragraph'">
     <p ng-repeat="string in $ctrl.content">{{ string }}</p>
   </div>
 
