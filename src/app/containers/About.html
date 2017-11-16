@@ -4,14 +4,14 @@
     <string-parser type="title" content="$ctrl.about.title"></string-parser>
     <string-parser type="paragraph" content="$ctrl.about.description"></string-parser>
 
-    <md-divider class="section-divider"></md-divider>
+    <md-divider></md-divider>
 
     <div ng-repeat="strategy in $ctrl.strategy">
       <string-parser type="subtitle" content="strategy.title"></string-parser>
       <string-parser type="paragraph" content="strategy.description"></string-parser>
     </div>
 
-    <md-divider class="section-divider"></md-divider>
+    <md-divider></md-divider>
 
     <string-parser type="subtitle" content="$ctrl.terms.title"></string-parser>
     <p>{{ $ctrl.terms.description }}<a ng-href="{{ $ctrl.terms.link }}" target="_blank">{{ $ctrl.terms.linkName }}</a></p>
