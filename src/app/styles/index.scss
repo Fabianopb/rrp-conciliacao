@@ -6,6 +6,15 @@ body {
   font-family: 'Nunito', sans-serif;
   color: $dark-primary-text-color;
 
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+
   a, a:hover, a:visited {
     color: $terciary-color;
   }

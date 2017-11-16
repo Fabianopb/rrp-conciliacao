@@ -1,27 +1,27 @@
 <flex-layout class="operation">
   <div ng-transclude-slot="flexContent">
 
-    <string-parser type="title" content="$ctrl.fourSteps.title"></string-parser>
+    <h1>{{ $ctrl.fourSteps.title }}</h1>
 
     <div ng-repeat="step in $ctrl.fourSteps.content" class="steps-container" layout="row">
       <div>
         <md-icon class="material-icons steps-icon">{{ step.icon }}</md-icon>
       </div>
       <div>
-        <string-parser type="subtitle" content="step.title"></string-parser>
-        <string-parser type="paragraph" content="step.description"></string-parser>
+        <h2>{{ step.title }}</h2>
+        <string-parser content="step.description"></string-parser>
       </div>
     </div>
 
     <md-divider></md-divider>
 
-    <string-parser type="title" content="$ctrl.validity.title"></string-parser>
-    <string-parser type="paragraph" content="$ctrl.validity.description"></string-parser>
+    <h1>{{ $ctrl.validity.title }}</h1>
+    <string-parser content="$ctrl.validity.description"></string-parser>
 
     <md-divider></md-divider>
 
     <div class="faq-container">
-      <string-parser type="title" content="$ctrl.faq.title"></string-parser>
+      <h1>{{ $ctrl.faq.title }}</h1>
       <div ng-repeat="info in $ctrl.faq.content track by $index" class="faq-item">
         <div class="faq-title" ng-click="$ctrl.toggle($index)" layout="row">
           <md-icon class="material-icons contact-icon" ng-class="$ctrl.shouldRender($index) ? 'faq-90deg' : 'faq-0deg'">chevron_right</md-icon>

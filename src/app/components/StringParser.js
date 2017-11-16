@@ -12,7 +12,6 @@ export const StringParserComponent = {
   template: require('./StringParser.html'),
   controller: StringParserController,
   bindings: {
-    type: '@',
     content: '<'
   }
 };

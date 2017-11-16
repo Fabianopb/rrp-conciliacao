@@ -16,7 +16,7 @@
       <div layout="row">
         <div class="values-box" ng-repeat="value in $ctrl.values" layout="column" layout-align="start center" flex>
           <div><md-icon class="material-icons values-icon">{{ value.icon }}</md-icon></div>
-          <string-parser type="subtitle" content="value.title"></string-parser>
+          <h2>{{ value.title }}</h2>
           <string-parser class="values-text" type="paragraph" content="value.description"></string-parser>
         </div>
       </div>
@@ -24,8 +24,8 @@
       <md-divider></md-divider>
 
       <div class="areas-container">
-        <string-parser type="subtitle" content="$ctrl.areas.title"></string-parser>
-        <string-parser type="paragraph" content="$ctrl.areas.description"></string-parser>
+        <h2>{{ $ctrl.areas.title }}</h2>
+        <string-parser content="$ctrl.areas.description"></string-parser>
         <ul>
           <li class="area-item" ng-repeat="area in $ctrl.areas.content">{{ area }}</li>
         </ul>
