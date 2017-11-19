@@ -1,5 +1,5 @@
 <div class="nav-bar" layout="column">
-  <div class="contact-header" layout="row" layout-align="end center">
+  <div hide show-gt-xs class="contact-header" layout="row" layout-align="end center">
     <div>
       <md-icon class="material-icons contact-icon">{{ $ctrl.contactEmail.icon }}</md-icon>
       {{ $ctrl.contactEmail.content }}
@@ -9,15 +9,48 @@
       {{ $ctrl.contactPhone.content }}
     </div>
   </div>
+
   <div class="menu-header" layout="row" layout-align="space-between center">
-    <div flex="30" layout="row" layout-align="start center">
+
+    <div flex="30" flex-xs="40" layout="row" layout-align="start center">
       <img class="img-logo" src="../../assets/images/logo.png" />
     </div>
-    <div layout="row" layout-align="space-around center" flex>
+    <div hide show-gt-xs layout="row" layout-align="space-around center" flex>
       <md-button ng-click="$ctrl.goto('notFound')">Envie seu caso</md-button>
       <div ng-repeat="route in $ctrl.routes" class="nav-link" ng-class="{selected: $ctrl.state.current.name === route.path}" ng-click="$ctrl.goto(route.path)">
         {{ route.caption }}
       </div>
     </div>
+
+    <div hide show-xs>
+      <md-icon class="material-icons hamburger-icon" ng-click="$ctrl.toggleSideNav()">menu</md-icon>
+    </div>
+
   </div>
+
+  <md-sidenav class="side-nav" layout="column" md-component-id="left">
+    <div layout="row" layout-align="space-between center">
+      <img class="img-logo" src="../../assets/images/logo.png" />
+      <div><md-icon class="material-icons close-icon" ng-click="$ctrl.toggleSideNav()">close</md-icon></div>
+    </div>
+    <div ng-repeat="route in $ctrl.routes" ng-class="{selected: $ctrl.state.current.name === route.path}" ng-click="$ctrl.goto(route.path)">
+      <md-divider class="side-nav-divider"></md-divider>
+      {{ route.caption }}
+    </div>
+
+    <md-divider class="side-nav-divider"></md-divider>
+
+    <div flex layout="column" layout-align="end start">
+      <div>
+        <md-icon class="material-icons contact-icon">{{ $ctrl.contactEmail.icon }}</md-icon>
+        {{ $ctrl.contactEmail.content }}
+      </div>
+      <div>
+        <md-icon class="material-icons contact-icon">{{ $ctrl.contactPhone.icon }}</md-icon>
+        {{ $ctrl.contactPhone.content }}
+      </div>
+    </div>
+
+  </md-sidenav>
+
 </div>

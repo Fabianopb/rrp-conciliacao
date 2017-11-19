@@ -2,6 +2,14 @@
 
 .nav-bar {
 
+  .contact-icon {
+    margin: 4px 0 0 16px;
+    height: 1.2rem;
+    width: 1.2rem;
+    font-size: 1.2rem;
+    color: $light-primary-text-color;
+  }
+
   .contact-header {
     z-index: 1;
     padding: 0 12px;
@@ -10,14 +18,6 @@
     font-weight: bold;
     background-color: $terciary-color;
     height: 30px;
-
-    .contact-icon {
-      margin: 4px 0 0 16px;
-      height: 1.2rem;
-      width: 1.2rem;
-      font-size: 1.2rem;
-      color: $light-primary-text-color;
-    }
   }
 
   .menu-header {
@@ -30,15 +30,51 @@
     .img-logo {
       max-height: 75px;
     }
+
+    .hamburger-icon {
+      color: $light-primary-text-color;
+      height: 2rem;
+      width: 2rem;
+      font-size: 2rem;
+    }
+
+    .nav-link {
+      cursor: pointer;
+      outline: 0;
+    }
+
+    .selected {
+      cursor: auto;
+      font-weight: bold;
+    }
   }
 
-  .nav-link {
-    cursor: pointer;
-    outline: 0;
+  .side-nav {
+    background-color: $primary-color;
+    color: $light-primary-text-color;
+    padding: 8px;
+
+    .img-logo {
+      max-height: 50px;
+      margin: 16px 0;
+    }
+
+    .close-icon {
+      color: $light-primary-text-color;
+      height: 1.5rem;
+      width: 1.5rem;
+      font-size: 1.5rem;
+    }
+
+    .selected {
+      color: $terciary-color;
+    }
+
+    .side-nav-divider {
+      margin: 16px 0;
+      border-color: $terciary-color;
+    }
+
   }
 
-  .selected {
-    cursor: auto;
-    font-weight: bold;
-  }
 }
