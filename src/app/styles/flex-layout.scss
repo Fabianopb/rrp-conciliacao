@@ -1,4 +1,12 @@
+@import 'variables';
+
 .flex-layout {
   min-height: calc(100% - 30px - 100px - 90px);
   padding: 40px;
+}
+
+@media screen and (max-width: $gt-xs) {
+  .flex-layout {
+    padding: 8px;
+  }
 }

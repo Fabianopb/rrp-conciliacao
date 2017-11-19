@@ -3,7 +3,7 @@
     <div layout="row" layout-align="center center" flex>
       <div class="hero-text" flex="60">{{ $ctrl.heroSection.description }}</div>
     </div>
-    <div layout="row" flex>
+    <div layout="column" layout-gt-xs="row" flex>
       <div ng-repeat="button in $ctrl.heroSection.buttons" layout="column" layout-align="start center" flex>
         <div>{{ button.title }}</div>
         <md-button ng-click="$ctrl.state.go('notFound')">{{ button.caption }}</md-button>
@@ -13,7 +13,7 @@
   <flex-layout>
     <div ng-transclude-slot="flexContent" class="content-container">
 
-      <div layout="row">
+      <div layout="column" layout-gt-sm="row">
         <div class="values-box" ng-repeat="value in $ctrl.values" layout="column" layout-align="start center" flex>
           <div><md-icon class="material-icons values-icon">{{ value.icon }}</md-icon></div>
           <h2>{{ value.title }}</h2>

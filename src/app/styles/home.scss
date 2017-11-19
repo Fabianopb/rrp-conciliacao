@@ -46,3 +46,13 @@
   }
 
 }
+
+@media screen and (max-width: $gt-xs) {
+  .home {
+    .background-image {
+      .hero-text {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
