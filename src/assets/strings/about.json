@@ -27,10 +27,13 @@
     }
   ],
   "terms": {
-    "title": "Regulamento",
-    "description": "Acesse o regulamento em PDF ",
-    "linkName": "clicando aqui",
-    "link": "../../assets/content/rrp-regulamento.pdf"
+    "title": "Regulamentos",
+    "description0": "Acesse o regulamento geral em PDF ",
+    "linkName0": "clicando aqui",
+    "link0": "../../assets/content/rrp-regulamento-geral.pdf",
+    "description1": "Acesse o regulamento de custas em PDF ",
+    "linkName1": "clicando aqui",
+    "link1": "../../assets/content/rrp-regulamento-custas.pdf"
   },
   "legislation": {
     "title": "Legislação",
