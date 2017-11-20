@@ -13,9 +13,19 @@ class ContactController {
   submitContactForm() {
     if (this.contactForm.$valid) {
       this.log.log(this.contactFormData);
-      this.log.log('Good! Need to send/submit somewhere...');
-    } else {
-      this.log.log('The form is invalid!');
+      const requestBody = {
+        fromEmail: this.contactFormData.email,
+        toEmail: 'rrpconciliacao@gmail.com',
+        subject: 'RRP: Contato pelo formulário',
+        content: `
+          Nome: ${this.contactFormData.name}
+          Telefone: ${this.contactFormData.phone}
+          e-mail: ${this.contactFormData.email}
+          --------------------------------------
+          ${this.contactFormData.message}
+        `
+      };
+      this.log.log(requestBody);
     }
   }
 
