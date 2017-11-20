@@ -63,6 +63,12 @@
             <md-button type="submit" class="md-primary">Submit</md-button>
           </div>
         </form>
+        <div ng-if="$ctrl.formMessage" class="success-message">
+          {{ $ctrl.formMessage }}
+        </div>
+        <div ng-if="$ctrl.formError" class="error-message">
+          {{ $ctrl.formError }}
+        </div>
       </div>
     </div>
   </div>

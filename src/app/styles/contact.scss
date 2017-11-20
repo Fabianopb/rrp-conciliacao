@@ -1,3 +1,5 @@
+@import 'variables';
+
 .contact {
 
   .contact-image {
@@ -14,5 +16,13 @@
       font-size: 1.6rem;
     }
 
+  }
+
+  .success-message {
+    color: $success-text-color;
+  }
+
+  .error-message {
+    color: $error-text-color;
   }
 }
