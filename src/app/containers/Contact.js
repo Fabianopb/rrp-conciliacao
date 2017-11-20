@@ -1,5 +1,6 @@
 import '../styles/contact.scss';
 import sharedStrings from '../../assets/strings/shared.json';
+import axios from 'axios';
 
 class ContactController {
   /** @ngInject */
@@ -15,7 +16,7 @@ class ContactController {
       this.log.log(this.contactFormData);
       const requestBody = {
         fromEmail: this.contactFormData.email,
-        toEmail: 'rrpconciliacao@gmail.com',
+        toEmail: 'fabianopbrito@gmail.com',
         subject: 'RRP: Contato pelo formulário',
         content: `
           Nome: ${this.contactFormData.name}
@@ -25,7 +26,9 @@ class ContactController {
           ${this.contactFormData.message}
         `
       };
-      this.log.log(requestBody);
+      axios.post('/mail/send', requestBody).then(response => {
+        this.log.log(response);
+      });
     }
   }
 
