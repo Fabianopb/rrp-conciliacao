@@ -15,7 +15,7 @@ class ContactController {
     if (this.contactForm.$valid) {
       const requestBody = {
         fromEmail: this.contactFormData.email,
-        toEmail: sharedStrings.contactEmail,
+        toEmail: this.contactEmail.content,
         subject: 'RRP: Contato pelo formulário',
         content: `
           Nome: ${this.contactFormData.name}
@@ -26,12 +26,16 @@ class ContactController {
         `
       };
       axios.post('/mail/send', requestBody)
-        .then(() => {
+        .then(response => {
+          this.log.log(response);
           this.contactFormData = this.getClearFormData();
+          this.contactForm.$setPristine();
+          this.contactForm.$setUntouched();
           this.formMessage = 'Mensagem enviada com sucesso!';
           this.formError = null;
         })
-        .catch(() => {
+        .catch(error => {
+          this.log.log(error);
           this.contactFormData = this.getClearFormData();
           this.formMessage = null;
           this.formError = 'Houve um erro ao enviar sua mensagem, favor entrar em contato por telefone.';
@@ -49,6 +53,8 @@ class ContactController {
   }
 
   init() {
+    this.formMessage = null;
+    this.formError = null;
     this.contactFormData = this.getClearFormData();
   }
 }

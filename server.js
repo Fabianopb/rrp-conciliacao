@@ -18,9 +18,7 @@ app.post('/mail/send', bodyParser, (request, response) => {
     body: mail.toJSON()
   });
   sg.API(mailRequest, (error, mailResponse) => { // eslint-disable-line
-    if (error) {
-      return response.status(400).send(error);
-    }
+    console.log(JSON.stringify(mailResponse));
   });
   return response.status(200).json('mail request created');
 });
