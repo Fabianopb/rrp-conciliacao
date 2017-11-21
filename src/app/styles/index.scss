@@ -43,6 +43,10 @@ body {
     background-color: $primary-color;
   }
 
+  .md-button.md-primary[disabled] {
+    background-color: rgba($terciary-color, 0.5);
+  }
+
   md-divider {
     margin: 40px 0;
   }
