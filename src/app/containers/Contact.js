@@ -4,8 +4,9 @@ import axios from 'axios';
 
 class ContactController {
   /** @ngInject */
-  constructor($log) {
+  constructor($log, $timeout) {
     this.log = $log;
+    this.timeout = $timeout;
     this.contactPhone = sharedStrings.contactPhone;
     this.contactEmail = sharedStrings.contactEmail;
     this.init();
@@ -26,36 +27,37 @@ class ContactController {
         `
       };
       axios.post('/mail/send', requestBody)
-        .then(response => {
-          this.log.log(response);
-          this.contactFormData = this.getClearFormData();
-          this.contactForm.$setPristine();
-          this.contactForm.$setUntouched();
-          this.formMessage = 'Mensagem enviada com sucesso!';
-          this.formError = null;
-        })
-        .catch(error => {
-          this.log.log(error);
-          this.contactFormData = this.getClearFormData();
-          this.formMessage = null;
-          this.formError = 'Houve um erro ao enviar sua mensagem, favor entrar em contato por telefone.';
-        });
+        .then(() => this.handleFormSuccess())
+        .catch(error => this.handleFormError(error));
     }
   }
 
-  getClearFormData() {
-    return {
-      name: '',
-      email: '',
-      phone: '',
-      message: ''
-    };
+  handleFormSuccess() {
+    this.timeout(() => {
+      this.resetForm();
+      this.formMessage = 'Mensagem enviada com sucesso!';
+      this.formError = null;
+    });
+  }
+
+  handleFormError(error) {
+    this.timeout(() => {
+      this.log.log(error);
+      this.formMessage = null;
+      this.formError = 'Houve um erro ao enviar sua mensagem, favor entrar em contato por telefone.';
+    });
+  }
+
+  resetForm() {
+    this.contactFormData = {};
+    this.contactForm.$setPristine();
+    this.contactForm.$setUntouched();
   }
 
   init() {
     this.formMessage = null;
     this.formError = null;
-    this.contactFormData = this.getClearFormData();
+    this.contactFormData = {};
   }
 }
 
