@@ -6,5 +6,19 @@
   "contactEmail": {
     "icon": "email",
     "content": "rrpconciliacao@gmail.com"
-  }
+  },
+  "systemLinks": [
+    {
+      "id": "start",
+      "link": "http://sistema.rrpconciliacao.com.br/iniciar"
+    },
+    {
+      "id": "access",
+      "link": "http://sistema.rrpconciliacao.com.br/acessar"
+    },
+    {
+      "id": "validate",
+      "link": "http://sistema.rrpconciliacao.com.br/autenticar"
+    }
+  ]
 }

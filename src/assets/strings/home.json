@@ -3,14 +3,17 @@
     "description": "Uma maneira rápida, segura e econômica de resolver conflitos",
     "buttons": [
       {
+        "linkId": "start",
         "title": "Tem um conflito para resolver?",
         "caption": "Envie seu caso"
       },
       {
+        "linkId": "access",
         "title": "Já está conciliando conosco?",
         "caption": "Acompanhe seu caso"
       },
       {
+        "linkId": "validate",
         "title": "Documentos para validar?",
         "caption": "Valide seus documentos"
       }

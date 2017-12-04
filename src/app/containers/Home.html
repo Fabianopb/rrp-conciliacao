@@ -6,7 +6,7 @@
     <div layout="column" layout-gt-xs="row" flex>
       <div ng-repeat="button in $ctrl.heroSection.buttons" layout="column" layout-align="start center" flex>
         <div>{{ button.title }}</div>
-        <md-button ng-click="$ctrl.state.go('notFound')">{{ button.caption }}</md-button>
+        <md-button ng-click="$ctrl.goToSystem(button.linkId)">{{ button.caption }}</md-button>
       </div>
     </div>
   </div>
