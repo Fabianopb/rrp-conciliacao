@@ -36,9 +36,9 @@
 		"title": "Validade Jurídica",
 		"description": [
       "A RRP Conciliação e Mediação emitirá um termo que formaliza e comprova o procedimento feito online.",
-			" O \"Termo de Acordo\" é emitido quando a conciliação/mediação online tiver êxito. O Termo tem efeito legal, ou seja, o mesmo efeito da sentença de um Juiz. No caso de descumprimento desse acordo, qualquer uma das partes pode comparecer no Judiciário e fazer valer o que está escrito, através de execução judicial.",
+			" O \"Termo de Acordo\" é emitido quando a conciliação/mediação online tiver êxito. O Termo tem efeito legal, ou seja, o mesmo efeito da sentença de um Juiz. No caso de descumprimento desse acordo, qualquer uma das partes pode comparecer no Judiciário e fazer valer o que está escrito, através de execução judicial. Dessa forma, quando já há um acordo entre as partes, não é necessário que o juiz analise e julgue novamente o caso, basta que ele faça valer a vontade das partes já contida no Termo de acordo, não havendo necessidade de sentença.",
 			"O \"Termo de Não Acordo\", é emitido para aqueles que não conseguiram obter êxito e comprova a tentativa de acordo. Se uma das partes quiser, pode tentar uma conciliação no Judiciário para que Juiz dê uma sentença.",
-			"Se por acaso alguma das partes não for localizada, não aceitar ou responder o convite de audiência ou não se manifestar no chat, é emitido uma \"Declaração de Tentativa\", que comprova a tentativa de uma das partes de negociar."
+			"Se por acaso alguma das partes não for localizada, não aceitar ou responder o convite de audiência ou não se manifestar no chat, é emitido uma \"Declaração de Tentativa de Conciliação Frustrada\", que comprova a tentativa de uma das partes de negociar."
 		]
 	},
   "faq": {
