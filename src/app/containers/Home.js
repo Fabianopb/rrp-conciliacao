@@ -17,7 +17,6 @@ class HomeController {
     const url = _.find(this.systemLinks, {id: linkId}).link;
     this.window.open(url, '_blank');
   }
-
 }
 
 export const HomeContainer = {

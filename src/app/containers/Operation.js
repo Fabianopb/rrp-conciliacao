@@ -22,7 +22,6 @@ class OperationController {
   init() {
     this.faqItemVisibility = this.faq.content.map(() => false);
   }
-
 }
 
 export const OperationContainer = {
