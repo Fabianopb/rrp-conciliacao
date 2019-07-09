@@ -5,7 +5,6 @@ class StringParserController {
   constructor($log) {
     this.log = $log;
   }
-
 }
 
 export const StringParserComponent = {

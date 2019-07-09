@@ -9,7 +9,6 @@ class AboutController {
     this.terms = aboutStrings.terms;
     this.legislation = aboutStrings.legislation;
   }
-
 }
 
 export const AboutContainer = {
