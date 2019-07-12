@@ -47,7 +47,7 @@
     "file-loader": "^1.1.5",
     "gulp": "^4.0.2",
     "gulp-angular-filesort": "^1.1.1",
-    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-angular-templatecache": "^3.0.0",
     "gulp-filter": "^5.0.0",
     "gulp-htmlmin": "^3.0.0",
     "gulp-hub": "frankwallis/gulp-hub#d461b9c700df9010d0a8694e4af1fb96d9f38bf4",
